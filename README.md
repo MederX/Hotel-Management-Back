@@ -92,12 +92,12 @@ I will add you to my postman workspace
 - `POST /16.171.253.87:8080/auth/register` - Register a new user.  
 - `POST /16.171.253.87:8080/auth/login` - Log in to the application.  
 - `GET /16.171.253.87:8080/users/all` - Retrieve all users (Admin access). (You can register as admin like this:
-    "email": "....@gmail.com",
-    "password": "....",
-    "phoneNumber": ".....",
-    "name": ".....",
-    "role":ADMIN
-  THEN USE THE TOKEN YOU GOT AS ADMIN TO TO ALL STUFF ONLY ADMIN CAN(UPDATE/DELETE ROOMS etc.)
+    -"email": "....@gmail.com",
+    -"password": "....",
+    -"phoneNumber": ".....",
+    -"name": ".....",
+    -"role":ADMIN
+  -THEN USE THE TOKEN YOU GOT AS ADMIN TO TO ALL STUFF ONLY ADMIN CAN(UPDATE/DELETE ROOMS etc.)
 - `GET /16.171.253.87:8080/users/get-by-id/2` - Get user information by ID.  
 - `GET /16.171.253.87:8080/users/get-logged-in-profile-info` - Retrieve logged-in user details.  
 - `GET /16.171.253.87:8080/users/get-user-bookings/2` - View user booking history.  
